@@ -1,6 +1,6 @@
-function isPalindrome(string) {
-  // Start coding here
-}
+function isPalindrome(string)
+{ return string === string.split("").reverse().join("");}
+
 
 //Example case
 console.log(isPalindrome("reviver"));// true
